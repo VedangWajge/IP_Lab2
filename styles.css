@@ -1,0 +1,156 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333; /* Dark background for header */
+    color: #fff;
+    padding: 15px;
+}
+
+header table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+header th, header td {
+    padding: 10px;
+    text-align: center;
+}
+
+header th {
+    text-align: left;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+header form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header input[type="search"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+header button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+header button:hover {
+    background-color: #0056b3;
+}
+
+nav {
+    text-align: center;
+    background-color: #222; /* Darker background for navbar */
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#about {
+    background-color: #e0f7fa; /* Light blue background */
+}
+
+#services {
+    background-color: #f1f8e9; /* Light green background */
+}
+
+#promotions {
+    background-color: #ffecb3; /* Light yellow background */
+}
+
+main iframe {
+    max-width: 100%;
+}
+
+main video {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .footer-left, footer .footer-right {
+    width: 45%;
+}
+
+footer .footer-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+footer .footer-right ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer .footer-right ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer .footer-right ul li a:hover {
+    color: #0056b3;
+}
+
+footer .footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
